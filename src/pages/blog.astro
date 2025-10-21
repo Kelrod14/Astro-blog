@@ -1,5 +1,7 @@
 ---
-const pageTitle = "Pagina de Inicio"
+const nombre = "Kelrod";
+const pageTitle = "Mi Blog sobre mi aprendizaje en Astro"
+
 ---
 
 <html lang="en">
@@ -15,5 +17,13 @@ const pageTitle = "Pagina de Inicio"
 		<a href="/about">Sobre mi</a>
 		<a href="/blog">Blog</a>
 		<h1>{pageTitle}</h1>
+		<p>Este es el blog de {nombre}</p>
+		<ul>
+			<li>
+				<a href="/posts/post-1">Publicacion 1</a>
+				<a href="/posts/post-2">Publicacion 2</a>
+				<a href="/posts/post-3">Publicacion 3</a>
+			</li>
+		</ul>
 	</body>
 </html>
