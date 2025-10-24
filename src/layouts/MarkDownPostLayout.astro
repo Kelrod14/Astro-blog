@@ -2,7 +2,6 @@
 import BaseLayouts from "./BaseLayouts.astro";
 
 const { frontmatter } = Astro.props;
-
 ---
 <BaseLayouts pageTitle={frontmatter.title}>
     <p>Escrito por {frontmatter.author}</p>
